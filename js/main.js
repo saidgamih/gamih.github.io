@@ -29,39 +29,39 @@ $(".nav-el").click(function() {
   $("body").css("overflow", "auto");
 });
 
-// dialog
-$("#close-alertbox").click(function() {
-  $("#alertbox").hide();
-  $("body").css("overflow", "auto");
-});
-// email
-$("#email-form").submit(function(event) {
-  event.preventDefault();
-  $.post(
-    "https://saysu.washandrenov.com/email/index.php",
-    $("#email-form").serialize()
-  )
-    .done(function(data) {
-      if (data === "success") {
-        $("#alertbox").toggle();
-        $("#alertbox").css("background", "#CEFDBA");
-        $("body").css("overflow", "hidden");
-        $("#message-zone").text("Your message was sent successfuly");
-        $(":input", "#email-form")
-          .not(":button, :submit, :reset, :hidden")
-          .val("")
-          .prop("checked", false)
-          .prop("selected", false);
-      } else if (data === "fail") {
-        $("#alertbox").toggle();
-        $("#alertbox").css("background", "#FAE9E6");
-        $("body").css("overflow", "hidden");
-        $("#message-zone").text(
-          "Message cannot be sent, please verify your entries"
-        );
-      }
-    })
-    .fail(function() {
-      alert("Cannot connect to the server !");
-    });
-});
+// // dialog
+// $("#close-alertbox").click(function() {
+//   $("#alertbox").hide();
+//   $("body").css("overflow", "auto");
+// });
+// // email
+// $("#email-form").submit(function(event) {
+//   event.preventDefault();
+//   $.post(
+//     "https://saysu.washandrenov.com/email/index.php",
+//     $("#email-form").serialize()
+//   )
+//     .done(function(data) {
+//       if (data === "success") {
+//         $("#alertbox").toggle();
+//         $("#alertbox").css("background", "#CEFDBA");
+//         $("body").css("overflow", "hidden");
+//         $("#message-zone").text("Your message was sent successfuly");
+//         $(":input", "#email-form")
+//           .not(":button, :submit, :reset, :hidden")
+//           .val("")
+//           .prop("checked", false)
+//           .prop("selected", false);
+//       } else if (data === "fail") {
+//         $("#alertbox").toggle();
+//         $("#alertbox").css("background", "#FAE9E6");
+//         $("body").css("overflow", "hidden");
+//         $("#message-zone").text(
+//           "Message cannot be sent, please verify your entries"
+//         );
+//       }
+//     })
+//     .fail(function() {
+//       alert("Cannot connect to the server !");
+//     });
+// });
