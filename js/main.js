@@ -38,7 +38,7 @@ $("#close-alertbox").click(function() {
 $("#email-form").submit(function(event) {
   event.preventDefault();
   $.post(
-    "https://saidgamih.000webhostapp.com/mail.php",
+    "http://saysu.washandrenov.com/email/",
     $("#email-form").serialize()
   )
     .done(function(data) {
@@ -62,6 +62,6 @@ $("#email-form").submit(function(event) {
       }
     })
     .fail(function() {
-      alert("Server error");
+      alert("Cannot connect to the server !");
     });
 });
