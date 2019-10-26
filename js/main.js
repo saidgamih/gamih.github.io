@@ -38,7 +38,7 @@ $("#close-alertbox").click(function() {
 $("#email-form").submit(function(event) {
   event.preventDefault();
   $.post(
-    "http://saysu.washandrenov.com/email/",
+    "https://saysu.washandrenov.com/email/",
     $("#email-form").serialize()
   )
     .done(function(data) {
