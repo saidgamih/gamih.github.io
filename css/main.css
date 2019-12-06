@@ -13,7 +13,7 @@ body.noscroll {
 
 /* width */
 body::-webkit-scrollbar {
-  width: 2px;
+  width: 5px;
 }
 
 /* Track */
@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb:hover {
 /*Scroll of fixed nav*/
 /* width */
 #nlist::-webkit-scrollbar {
-  width: 2px;
+  width: 5px;
 }
 
 /* Track */
