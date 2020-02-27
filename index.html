@@ -1,292 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="content-language" content="en" />
     <meta name="theme-color" content="#000" />
-    <meta
-      name="description"
-      content="I'm a full-stack web developer, and graphic designer. 
-      I have serious passion for Javascript implementaions, and I'm interested in MERN stack. I'm currently working in my own company SAYSU Solutions"
-    />
+    <meta name="description" content="I'm a full-stack web developer, and graphic designer. 
+      I have serious passion for Javascript implementaions, and I'm interested in MERN stack. I'm currently working in my own company SAYSU Solutions" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="robots" content="index,follow" />
 
     <script async type="application/ld+json">
-      {
-        "@context": "http://www.gamih.me",
-        "@type": "Freelancer",
-        "url": "http://www.gamih.me",
-        "name": "Said Gamih",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "Phone": "+212 645184316",
-          "contactType": "Customer service"
+        {
+            "@context": "http://www.gamih.me",
+            "@type": "Freelancer",
+            "url": "http://www.gamih.me",
+            "name": "Said Gamih",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "Phone": "+212 645184316",
+                "contactType": "Customer service"
+            }
         }
-      }
     </script>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Kodchasan|Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan|Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Said Gamih | Full Stack Developer</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="alertbox">
-      <p id="message-zone"></p>
-      <button id="close-alertbox" class="btn mybtn">OK</button>
+        <p id="message-zone"></p>
+        <button id="close-alertbox" class="btn mybtn">OK</button>
     </div>
     <div id="navb">
-      <div class="logo">
-        <a href="/"><img src="images/logo.png" alt=""/></a>
-      </div>
+        <div class="logo">
+            <a href="/"><img src="images/logo.png" alt="" /></a>
+        </div>
     </div>
     <div class="btn-list btn-list-nd" id="btn-list">
-      <i class="fas fa-bars"></i>
+        <i class="fas fa-bars"></i>
     </div>
     <div class="nlist" id="nlist">
-      <ul>
-        <a href="/"><li>HOME</li></a>
-        <a href="#about" class="nav-el"><li>ABOUT</li></a>
-        <a href="#portfolio" class="nav-el"><li>PORTFOLIO</li></a>
-        <a href="#contact" class="nav-el"><li>CONTACT</li></a>
-      </ul>
+        <ul>
+            <a href="/">
+                <li>HOME</li>
+            </a>
+            <a href="#about" class="nav-el">
+                <li>ABOUT</li>
+            </a>
+            <a href="#portfolio" class="nav-el">
+                <li>PORTFOLIO</li>
+            </a>
+            <a href="#contact" class="nav-el">
+                <li>CONTACT</li>
+            </a>
+        </ul>
     </div>
     <div class="fluid-container header ">
-      <div class="contaner-fluid layer jumbotron d-flex align-items-center">
-        <div class="container">
-          Hello, I'm <span>Said Gamih</span><br />
-          I'm a full-stack web developer
-          <br />
-          <a href="#about" style="text-decoration: none"
-            ><button class="btn mybtn mt-3">
+        <div class="contaner-fluid layer jumbotron d-flex align-items-center">
+            <div class="container">
+                Hello, I'm <span>Said Gamih</span><br /> I'm a full-stack web developer
+                <br />
+                <a href="#about" style="text-decoration: none"><button class="btn mybtn mt-3">
               <i class="far fa-eye"></i>
               More about me
             </button>
           </a>
-          <br />
-          <div class="down-l">
-            <i class="fas fa-chevron-down"></i>
-          </div>
+                <br />
+                <div class="down-l">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <div class="container mt-4">
-      <div class="about" id="about">
-        <h2 class="main-header">About</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="image-cnt mx-auto mb-3">
-              <img src="images/said.png" alt="" />
-            </div>
-            <div class="bio my-3">
-              <div class="details">
-                <span class="name"
-                  ><i class="fas fa-user-tie"></i> Said Gamih</span
+        <div class="about" id="about">
+            <h2 class="main-header">About</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image-cnt mx-auto mb-3">
+                        <img src="images/said.png" alt="" />
+                    </div>
+                    <div class="bio my-3">
+                        <div class="details">
+                            <span class="name"><i class="fas fa-user-tie"></i> Said Gamih</span
                 >
                 <span class="loc">
                   <i class="fas fa-map-marker-alt"></i> Rabat, Morocco
                 </span>
-              </div>
-              I'm a full-stack web developer, and graphic designer. <br />
-              I have serious passion for Javascript implementaions, and I'm
-              interested in MERN stack. I'm currently working in my own company
-              <a
-                href="http://saysu.gamih.ga"
-                target="_blank"
-                title="SaysuSolutions"
-              >
-                <span style="color: rgb(57, 188, 228); font-weight: 500;"
-                  >@SaysuSolutions</span
-                >
-              </a>
+                        </div>
+                        I'm a full-stack web developer <br /> I have serious passion for PHP & Node.JS, and I work with many frameworks as Express for Node.JS and Laravel for PHP and also intersted in building RESTful API.
+                    </div>
+                </div>
+                <div class="col-md-6 skills">
+                    <h5 class="sub-title mb-4">
+                        <i class="far fa-check-square"></i> SKILLS
+                    </h5>
+                    <div class="prg-cnt">
+                        <div class="prg html">HTML</div>
+                        <span>80%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg css">CSS</div>
+                        <span>60%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg js">JavaScript</div>
+                        <span>75%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg react">React.js</div>
+                        <span>60%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg node">Node.js</div>
+                        <span>65%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg php">PHP</div>
+                        <span>75%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg css">Laravel</div>
+                        <span>60%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg mysql">MySQL</div>
+                        <span>75%</span>
+                    </div>
+                    <div class="prg-cnt">
+                        <div class="prg mongo">MongoDB</div>
+                        <span>50%</span>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 skills">
-            <h5 class="sub-title mb-4">
-              <i class="far fa-check-square"></i> SKILLS
-            </h5>
-            <div class="prg-cnt">
-              <div class="prg html">HTML</div>
-              <span>80%</span>
-            </div>
-            <div class="prg-cnt">
-              <div class="prg css">CSS</div>
-              <span>60%</span>
-            </div>
-            <div class="prg-cnt">
-              <div class="prg js">JavaScript</div>
-              <span>75%</span>
-            </div>
-            <div class="prg-cnt">
-              <div class="prg react">React</div>
-              <span>60%</span>
-            </div>
-            <div class="prg-cnt">
-              <div class="prg node">Node.js</div>
-              <span>65%</span>
-            </div>
-            <div class="prg-cnt">
-              <div class="prg mongo">MongoDB</div>
-              <span>50%</span>
-            </div>
-            <div class="prg-cnt">
-              <div class="prg php">PHP</div>
-              <span>75%</span>
-            </div>
-            <div class="prg-cnt">
-              <div class="prg mysql">MySQL</div>
-              <span>75%</span>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="Portofolio" id="portfolio">
-        <h2 class="main-header">Portfolio</h2>
-        <div class="row equal">
-          <div class="col-md-6 prj">
-            <div class="prj-img">
-              <img src="images/saysusolutions.png" alt="" />
+        <div class="Portofolio" id="portfolio">
+            <h2 class="main-header">Portfolio</h2>
+            <div class="row equal justify-content-center">
+                <div class="col-md-6 prj">
+                    <div class="prj-img">
+                        <img src="images/saysusolutions.png" alt="" />
+                    </div>
+                    <h4 class="prj-title">SAYSU solutions landing page</h4>
+                    <div class="prj-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="visit-prj mt-3">
+                        <a href="http://saysu.gamih.ga" target="_blank"><button class="btn mybtn">Visit</button></a>
+                    </div>
+                </div>
+                <div class="col-md-6 prj">
+                    <div class="prj-img">
+                        <img src="images/khamlishi.png" alt="" />
+                    </div>
+                    <h4 class="prj-title">Khamlichi's Team landing page</h4>
+                    <div class="prj-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <!-- <div class="prj-desc">
+                        This is the landing page of one of our customers, SKT, fully responsive, I used bootstrap 4 grid and some components as the navbar . It completed after 10 hours of work .
+                    </div> -->
+                    <div class="visit-prj mt-3">
+                        <a href="http://skt.gamih.ga" target="_blank"><button class="btn mybtn">Visit</button></a>
+                    </div>
+                </div>
+                <div class="col-md-6 prj">
+                    <div class="prj-img">
+                        <img src="images/egicosup.png" alt="" />
+                    </div>
+                    <h4 class="prj-title">EGICOSUP website</h4>
+                    <div class="prj-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="visit-prj mt-3">
+                        <a href="http://www.egicosup.ma" target="_blank"><button class="btn mybtn">Visit</button></a>
+                    </div>
+                </div>
             </div>
-            <h4 class="prj-title">SAYSU solutions landing page</h4>
-            <div class="prj-tools">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-            <div class="prj-desc">
-              This is the landing page of our company SAYSU solutions, fully
-              responsive, 100% css, whitout using any external framework . For
-              the navbar I used vanilla JavaScript .
-            </div>
-            <div class="visit-prj">
-              <a href="http://saysu.gamih.ga" target="_blank"
-                ><button class="btn mybtn">View</button></a
-              >
-            </div>
-          </div>
-          <div class="col-md-6 prj">
-            <div class="prj-img">
-              <img src="images/khamlishi.png" alt="" />
-            </div>
-            <h4 class="prj-title">Khamlichi's Team landing page</h4>
-            <div class="prj-tools">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>Bootstrap</span>
-            </div>
-            <div class="prj-desc">
-              This is the landing page of one of our customers, SKT, fully
-              responsive, I used bootstrap 4 grid and some components as the navbar . It completed after 10
-              hours of work .
-            </div>
-            <div class="visit-prj">
-              <a href="http://skt.gamih.ga" target="_blank"
-                ><button class="btn mybtn">View</button></a
-              >
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="contact" id="contact">
-        <h2 class="main-header">Contact</h2>
-        <div class="row">
-          <div class="col-md-8 mx-auto contact-form">
-            <form id="email-form">
-              <!---name="contact" netlify--->
-              <div class="input-cnt">
-                <label for="name"><i class="far fa-user-circle"></i></label>
-                <input type="text" name="name" placeholder="Name" id="name" />
-              </div>
-              <div class="input-cnt">
-                <label for="email"><i class="far fa-envelope"></i></label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                />
-              </div>
-              <div class="input-cnt">
-                <label for="subject"><i class="fas fa-paperclip"></i></label>
-                <input type="text" name="subject" placeholder="Subject" />
-              </div>
-              <div class="input-cnt">
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Message ..."
-                ></textarea>
-              </div>
-              <button id="send-btn" class="btn mybtn">Send</button>
-            </form>
-            <div class="other-contact">
-              <div class="contact-el">
-                <i class="far fa-envelope"></i>
-                said.gamih@gmail.com
-              </div>
-              <div class="contact-el">
-                <i class="far fa-envelope"></i>
-                contact@gamih.me
-              </div>
-              <div class="contact-el">
-                <i class="fas fa-phone"></i>
-                +212 645 184 316
-              </div>
+        <div class="contact" id="contact">
+            <h2 class="main-header">Contact</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto contact-form">
+                    <form id="email-form" name="contact" netlify>
+                        <div class="input-cnt">
+                            <label for="name"><i class="far fa-user-circle"></i></label>
+                            <input type="text" name="name" placeholder="Name" id="name" />
+                        </div>
+                        <div class="input-cnt">
+                            <label for="email"><i class="far fa-envelope"></i></label>
+                            <input type="email" name="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="input-cnt">
+                            <label for="subject"><i class="fas fa-paperclip"></i></label>
+                            <input type="text" name="subject" placeholder="Subject" />
+                        </div>
+                        <div class="input-cnt">
+                            <textarea name="message" id="message" placeholder="Message ..."></textarea>
+                        </div>
+                        <button id="send-btn" class="btn mybtn">Send</button>
+                    </form>
+                    <div class="other-contact">
+                        <div class="contact-el">
+                            <i class="far fa-envelope"></i> said.gamih@gmail.com
+                        </div>
+                        <div class="contact-el">
+                            <i class="far fa-envelope"></i> contact@gamih.me
+                        </div>
+                        <div class="contact-el">
+                            <i class="fas fa-phone"></i> +212 645 184 316
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <div class="fluid-container footer">
-      <div class="container footer-cnt">
-        <div class="social">
-          <h5 class="block mb-0">Find me on</h5>
-          <a href="https://www.github.com/saidgamih" target="_blank"
-            ><i class="fab fa-github-square"></i
+        <div class="container footer-cnt">
+            <div class="social">
+                <h5 class="block mb-0">Find me on</h5>
+                <a href="https://www.github.com/saidgamih" target="_blank"><i class="fab fa-github-square"></i
           ></a>
-          <a href="https://www.facebook.com/said.gamih" target="_blank"
-            ><i class="fab fa-facebook-square"></i
+                <a href="https://www.facebook.com/said.gamih" target="_blank"><i class="fab fa-facebook-square"></i
           ></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-behance-square"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-behance-square"></i></a>
+            </div>
         </div>
-      </div>
-      <div class="copyrights">
-        All Rights Reserved For Said Gamih © 2019
-      </div>
+        <div class="copyrights">
+            All Rights Reserved For Said Gamih © 2019
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
