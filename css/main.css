@@ -264,17 +264,19 @@ body::-webkit-scrollbar-thumb:hover {
     display: block;
 }
 
-.name {
+.details span.name {
     font-size: 22px;
+    color: black;
 }
 
-.loc {
+.details span.loc {
     font-size: 14px;
+    color: #999;
 }
 
 .bio {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 20px;
 }
 
@@ -282,6 +284,10 @@ body::-webkit-scrollbar-thumb:hover {
     color: rgb(105, 105, 105);
     margin: 0;
     margin-bottom: 10px;
+}
+
+.bio p {
+    color: #555;
 }
 
 .image-cnt img {
